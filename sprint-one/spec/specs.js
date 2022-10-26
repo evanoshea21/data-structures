@@ -35,6 +35,7 @@ define([
       verifyClass(instantiator).followsPattern(variant, {}, prototypeOfInstances);
 
       it('reports a size of zero for a new stack', function() {
+        console.log('size baby: ', stack.size());
         expect(stack.size()).to.equal(0);
       });
 
